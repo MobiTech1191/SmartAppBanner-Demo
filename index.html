@@ -1,0 +1,28 @@
+<!doctype html>
+<title>Smartbanner test</title>
+<meta name="apple-itunes-app" content="app-id=<id-of-your-app>">
+<meta name="google-play-app" content="app-id=<id.of.your.app>">
+<link rel="stylesheet" href="smart-app-banner.css" type="text/css" media="screen">
+<script type="text/javascript" src="smart-app-banner.js"></script>
+<script>
+    // Initialize Banner
+    new SmartBanner({
+        daysHidden: 15,
+        daysReminder: 90,
+        appStoreLanguage: 'us',
+        title: 'Swiss Deluxe Hotels',
+        author: 'Swiss Deluxe Hotels',
+        button: 'Download',
+        store: {
+            ios: 'On the App Store',
+            android: 'In Google Play'
+        },
+        price: {
+            ios: 'FREE',
+            android: 'FREE'
+        },
+        force: 'ios',
+        icon: "https://lh3.googleusercontent.com/Z3e6H2GSGHWNn8oHOMhy02IC09SLZv5cCgpjW6DbqlGh6z6mUs1DH_fgk8dauJTpJPqy=s180"
+    });
+</script>
+<body></body>
